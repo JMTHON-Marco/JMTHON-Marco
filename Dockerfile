@@ -1,4 +1,4 @@
-FROM JMTHON-AR/JM-THON:alpine
+FROM marco200417/marco200417:alpine
 
 #clonning repo 
 RUN git clone https://github.com/marco200417/marco200417.git /root/userbot
