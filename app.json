@@ -1,13 +1,13 @@
 {
   "name": "بـوت ماركو",
   "description": "قناتي في التيلجرام https://t.me/UUlSQ ",
-  "logo": "https://telegra.ph/file/e39d02603863669b09c4d.jpg",
+  "logo": "https://telegra.ph/file/4afe9b8a7ade976159fc9.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/JMTHON-AR/JMTHON-PACK",
+  "repository": "https://github.com/marco200417/marco200417.git",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -28,20 +28,20 @@
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": " @ هنـا ضع معرف بوت التلي الخاص بك بدون ",
+      "description": " @ هنـا ضع معرف البوت التلي الخاص بك بدون ",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "هنـا ضع توكن بوتك .",
+      "description": "هنـا ضع توكن البوت .",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "لا تغيـرها ابدا",
+      "description": "اتركه",
       "value": ".",
       "required": false
     },
     "ENV": {
-      "description": "لا تغيـرها ابدا.",
+      "description": "اتركه.",
       "value": "ANYTHING",
       "required": false
     },
@@ -69,7 +69,7 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لا تغيـرها ابدا",
+      "description": "اتركه",
       "value": "Jmthon-iq",
       "required": false
     }
