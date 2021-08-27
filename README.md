@@ -3,7 +3,7 @@
 
 
 ### استخراج كود تيرمكس  ##
-[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@JMTHONAR/stringsession)
+[![Run on Repl.it](https://repl.it/badge/github/STARKGANG/friday)](https://replit.com/@JMTHON-Marco/JMTHON-Marco?v=1)
 - احصل على الايبي هاش والايبي ايدي من  [هـنا](https://my.telegram.org/)    
 
 ### التنصيب عبر هيروكو ##
