@@ -1,7 +1,7 @@
-FROM marco200417/marco200417:alpine
+FROM JMTHON-Marco/JMTHON-Marco:alpine
 
 #clonning repo 
-RUN git clone https://github.com/marco200417/marco200417.git /root/userbot
+RUN git clone https://github.com/JMTHON-Marco/JMTHON-Marco.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
