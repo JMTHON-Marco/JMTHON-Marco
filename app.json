@@ -1,0 +1,98 @@
+{
+  "name": "بوت ماركو",
+  "description": "بـوت ماركو العربي مجاني رابط القناة اتمنا ماتقصرون @UUISQ",
+  "logo": "https://telegra.ph/file/612e081bb9e793f90036b.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/JMTHON-Marco/JMTHON-Marco",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "خلي الاسم حسابك الخاص بالتلي",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "هنا خلي الايب ايدي  :  my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "هـنا خلي ايبي هاش  my.telegram.org",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "هـنا خلي كـود تيرمكس ",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": " @ هنـا خلي معرف البوت الخاص بك بدون ",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنـا خلي توكن بوتك .",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "عوفها",
+      "value": ".",
+      "required": false
+    },
+    "ENV": {
+      "description": "عوفها.",
+      "value": "ANYTHING",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "ايبـي هيروكو احصل عليه من هذا الرابط مطلوبة ! https://dashboard.heroku.com/account",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق اول اسم خليته ",
+      "value": ""
+    },
+    "DEFAULT_BIO": {
+      "description": "هنا خلي البايو حتى يصير بي وقت ",
+      "value": "",
+      "required": false
+    },
+    "DIGITAL_PIC": {
+      "description": "هنا خلي الرابط الصوره حتى تصير وقتيه",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "هنـا ضع المنطقه الزمنية الخاص بك  احصل عليه من  http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "عوفها",
+      "value": "JMTHON-Marco",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
